@@ -1,0 +1,64 @@
+config:
+  credentials: []
+  project_repos:
+    github.com/EOSC-synergy/sqaaas-tooling:
+      branch: main
+      repo: https://github.com/EOSC-synergy/sqaaas-tooling
+    github.com/IraitzM/data-complexity:
+      branch: develop
+      repo: https://github.com/IraitzM/data-complexity
+environment:
+  JPL_DOCKERFORCEBUILD: enabled
+  JPL_KEEPGOING: enabled
+sqa_criteria:
+  QC.Acc:
+    repos:
+      github.com/IraitzM/data-complexity git:
+        commands:
+        - /usr/bin/env sh .sqa/script.boozy-firebrick-koala.sh
+        container: qc.acc_skimpy-aquamarine-kingfisher
+  QC.Doc:
+    repos:
+      github.com/IraitzM/data-complexity find_doc_files.py:
+        commands:
+        - /usr/bin/env sh .sqa/script.scummy-scarlet-fly.sh
+        container: qc.doc_frumpy-apricot-monster
+      github.com/IraitzM/data-complexity git:
+        commands:
+        - /usr/bin/env sh .sqa/script.sickly-lemon-terrier.sh
+        container: qc.doc_sleazy-sapphire-mayfly
+      github.com/IraitzM/data-complexity markdownlint:
+        commands:
+        - /usr/bin/env sh .sqa/script.cloudy-chartreuse-chimpanzee.sh
+        container: qc.doc_seedy-purple-slug
+  QC.Lic:
+    repos:
+      github.com/IraitzM/data-complexity licensee:
+        commands:
+        - /usr/bin/env sh .sqa/script.stinky-teal-bandicoot.sh
+        container: qc.lic_surly-ultramarine-mule
+  QC.Sec:
+    repos:
+      github.com/IraitzM/data-complexity bandit:
+        commands:
+        - /usr/bin/env sh .sqa/script.fuzzy-asparagus-impala.sh
+        container: qc.sec_squeaky-amethyst-cheetah
+  QC.Sty:
+    repos:
+      github.com/IraitzM/data-complexity flake8:
+        commands:
+        - /usr/bin/env sh .sqa/script.sleazy-lime-toad.sh
+        container: qc.sty_flimsy-emerald-elephant
+  QC.Uni:
+    repos:
+      github.com/IraitzM/data-complexity pytest:
+        commands:
+        - /usr/bin/env sh .sqa/script.bluesy-cream-axolotl.sh
+        container: qc.uni_shaggy-coral-chameleon
+  QC.Ver:
+    repos:
+      github.com/IraitzM/data-complexity get_git_tags.py:
+        commands:
+        - /usr/bin/env sh .sqa/script.nippy-malachite-akita.sh
+        container: qc.ver_cozy-tangerine-shrimp
+timeout: 5400
