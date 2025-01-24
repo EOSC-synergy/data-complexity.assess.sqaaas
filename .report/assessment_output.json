@@ -1454,23 +1454,23 @@
             },
             "data": {
                 "entityType": "Assertion",
-                "entityId": "WPSwNKSrRf2fISscNKfSFw",
-                "openBadgeId": "https://api.eu.badgr.io/public/assertions/WPSwNKSrRf2fISscNKfSFw",
-                "createdAt": "2025-01-24T15:47:05.053877624Z",
+                "entityId": "iskP_olkRkKzWu4ACL_Q_A",
+                "openBadgeId": "https://api.eu.badgr.io/public/assertions/iskP_olkRkKzWu4ACL_Q_A",
+                "createdAt": "2025-01-24T15:47:43.316791228Z",
                 "createdBy": "aS1lWKgIR4u8bGjPZUzAyg",
                 "badgeclass": "UOmgyH_TSpSPXiro4aNBoQ",
                 "badgeclassOpenBadgeId": "https://api.eu.badgr.io/public/badges/UOmgyH_TSpSPXiro4aNBoQ",
                 "issuer": "aS1lWKgIR4u8bGjPZUzAyg",
                 "issuerOpenBadgeId": "https://api.eu.badgr.io/public/issuers/aS1lWKgIR4u8bGjPZUzAyg",
-                "image": "https://api.eu.badgr.io/public/assertions/WPSwNKSrRf2fISscNKfSFw/image",
+                "image": "https://api.eu.badgr.io/public/assertions/iskP_olkRkKzWu4ACL_Q_A/image",
                 "recipient": {
-                    "identity": "sha256$a8651b1bc1bc5df564ab66ea70557e0340d60b4ff6bb3a7228622265d6592eef",
+                    "identity": "sha256$47dcb9d9eec8ad19be816cee1e512e32bdfaf86fc193798d16d8b3ddad973867",
                     "hashed": true,
                     "type": "url",
-                    "salt": "S5RH3U24SjcRj4En",
+                    "salt": "KHfTO2XeO2louAMc",
                     "plaintextIdentity": "https://github.com/IraitzM/data-complexity"
                 },
-                "issuedOn": "2025-01-24T15:47:05.053893315Z",
+                "issuedOn": "2025-01-24T15:47:43.316795358Z",
                 "narrative": "SQAaaS assessment results for repository https://github.com/IraitzM/data-complexity (commit: 5cf0816f969871015ab23f6e62c198c00a92d1aa, branch/tag: develop)",
                 "evidence": [
                     {
@@ -1488,7 +1488,7 @@
                 "expires": null,
                 "extensions": {},
                 "assertionRef": {
-                    "assertionUrl": "https://api.eu.badgr.io/public/assertions/WPSwNKSrRf2fISscNKfSFw"
+                    "assertionUrl": "https://api.eu.badgr.io/public/assertions/iskP_olkRkKzWu4ACL_Q_A"
                 },
                 "badgeRef": {
                     "badgeUrl": "https://api.eu.badgr.io/public/badges/UOmgyH_TSpSPXiro4aNBoQ"
@@ -1500,10 +1500,10 @@
                 "source": "local",
                 "sourceUrl": null,
                 "originalJson": null,
-                "imagePath": "uploads/badges/assertion-WPSwNKSrRf2fISscNKfSFw.png"
+                "imagePath": "uploads/badges/assertion-iskP_olkRkKzWu4ACL_Q_A.png"
             },
-            "share": "<!--\nSPDX-FileCopyrightText: Copyright contributors to the Software Quality Assurance as a Service (SQAaaS) project <sqaaas@ibergrid.eu>\nSPDX-FileContributor: Pablo Orviz <orviz@ifca.unican.es>\n\nSPDX-License-Identifier: GPL-3.0-only\n-->\n\n<blockquote class=\"badgr-badge\" style=\"font-family: Helvetica, Roboto, &quot;Segoe UI&quot;, Calibri, sans-serif;\"><a href=\"https://api.eu.badgr.io/public/assertions/WPSwNKSrRf2fISscNKfSFw?identity__url=https%3A//github.com/EOSC-synergy/data-complexity.assess.sqaaas/commit/4696bb9dfaabf65ff727511e3593276ba4f8dd14\"><img width=\"120px\" height=\"120px\" src=\"https://api.eu.badgr.io/public/assertions/WPSwNKSrRf2fISscNKfSFw/image\"></a><script async=\"async\" src=\"https://eu.badgr.com/assets/widgets.bundle.js\"></script></blockquote>",
-            "verification_url": "https://badgecheck.io/?url=https%3A%2F%2Fapi.eu.badgr.io%2Fpublic%2Fassertions%2FWPSwNKSrRf2fISscNKfSFw?identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Fdata-complexity.assess.sqaaas%2Fcommit%2F4696bb9dfaabf65ff727511e3593276ba4f8dd14&amp;identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Fdata-complexity.assess.sqaaas%2Fcommit%2F4696bb9dfaabf65ff727511e3593276ba4f8dd14"
+            "share": "<!--\nSPDX-FileCopyrightText: Copyright contributors to the Software Quality Assurance as a Service (SQAaaS) project <sqaaas@ibergrid.eu>\nSPDX-FileContributor: Pablo Orviz <orviz@ifca.unican.es>\n\nSPDX-License-Identifier: GPL-3.0-only\n-->\n\n<blockquote class=\"badgr-badge\" style=\"font-family: Helvetica, Roboto, &quot;Segoe UI&quot;, Calibri, sans-serif;\"><a href=\"https://api.eu.badgr.io/public/assertions/iskP_olkRkKzWu4ACL_Q_A?identity__url=https%3A//github.com/EOSC-synergy/data-complexity.assess.sqaaas/commit/4696bb9dfaabf65ff727511e3593276ba4f8dd14\"><img width=\"120px\" height=\"120px\" src=\"https://api.eu.badgr.io/public/assertions/iskP_olkRkKzWu4ACL_Q_A/image\"></a><script async=\"async\" src=\"https://eu.badgr.com/assets/widgets.bundle.js\"></script></blockquote>",
+            "verification_url": "https://badgecheck.io/?url=https%3A%2F%2Fapi.eu.badgr.io%2Fpublic%2Fassertions%2FiskP_olkRkKzWu4ACL_Q_A?identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Fdata-complexity.assess.sqaaas%2Fcommit%2F4696bb9dfaabf65ff727511e3593276ba4f8dd14&amp;identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Fdata-complexity.assess.sqaaas%2Fcommit%2F4696bb9dfaabf65ff727511e3593276ba4f8dd14"
         }
     }
 }
