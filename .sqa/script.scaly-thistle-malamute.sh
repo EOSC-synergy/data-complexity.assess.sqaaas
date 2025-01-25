@@ -5,5 +5,5 @@
 
 (
 cd github.com/IraitzM/data-complexity &&
-    flake8 .
+    cffconvert --validate 
 )
