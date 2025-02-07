@@ -15,56 +15,56 @@ sqa_criteria:
     repos:
       github.com/IraitzM/data-complexity git:
         commands:
-        - /usr/bin/env sh .sqa/script.paltry-periwinkle-dragonfly.sh
-        container: qc.acc_lumpy-lime-rattlesnake
+        - /usr/bin/env sh .sqa/script.muggy-sepia-alligator.sh
+        container: qc.acc_cloudy-orange-angora
   QC.Doc:
     repos:
       github.com/IraitzM/data-complexity find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.pokey-flax-mastiff.sh
-        container: qc.doc_gummy-bistre-falcon
+        - /usr/bin/env sh .sqa/script.bumpy-orange-corgi.sh
+        container: qc.doc_shabby-firebrick-octopus
       github.com/IraitzM/data-complexity git:
         commands:
-        - /usr/bin/env sh .sqa/script.stuffy-scarlet-dogfish.sh
-        container: qc.doc_homely-ultramarine-skunk
+        - /usr/bin/env sh .sqa/script.sleazy-yellow-gecko.sh
+        container: qc.doc_squirrely-denim-indri
       github.com/IraitzM/data-complexity markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.boozy-green-newt.sh
-        container: qc.doc_slaphappy-smalt-chihuahua
+        - /usr/bin/env sh .sqa/script.pasty-cardinal-iguana.sh
+        container: qc.doc_cozy-olive-dragonfly
   QC.Lic:
     repos:
       github.com/IraitzM/data-complexity licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.jumpy-ochre-cassowary.sh
-        container: qc.lic_sleepy-violet-flounder
+        - /usr/bin/env sh .sqa/script.stealthy-chartreuse-birman.sh
+        container: qc.lic_grumpy-seashell-sheep
   QC.Met:
     repos:
       github.com/IraitzM/data-complexity cff-converter-python:
         commands:
-        - /usr/bin/env sh .sqa/script.thirsty-cinnamon-macaque.sh
-        container: qc.met_sloppy-apricot-beagle
+        - /usr/bin/env sh .sqa/script.messy-burgundy-vulture.sh
+        container: qc.met_snappy-periwinkle-jackal
   QC.Sec:
     repos:
       github.com/IraitzM/data-complexity bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.lanky-ecru-capuchin.sh
-        container: qc.sec_skimpy-periwinkle-baboon
+        - /usr/bin/env sh .sqa/script.queasy-magnolia-barnacle.sh
+        container: qc.sec_lousy-emerald-chimpanzee
   QC.Sty:
     repos:
       github.com/IraitzM/data-complexity flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.shaky-copper-tarsier.sh
-        container: qc.sty_wheezy-aquamarine-bear
+        - /usr/bin/env sh .sqa/script.tasty-aquamarine-bison.sh
+        container: qc.sty_clammy-asparagus-horse
   QC.Uni:
     repos:
       github.com/IraitzM/data-complexity pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.sunny-amber-cougar.sh
-        container: qc.uni_clammy-wheat-tzu
+        - /usr/bin/env sh .sqa/script.cloudy-viridian-yak.sh
+        container: qc.uni_pokey-heliotrope-snake
   QC.Ver:
     repos:
       github.com/IraitzM/data-complexity get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.snoopy-cobalt-chow.sh
-        container: qc.ver_gimpy-rust-goat
+        - /usr/bin/env sh .sqa/script.scanty-lilac-beagle.sh
+        container: qc.ver_foggy-amber-barnacle
 timeout: 5400
